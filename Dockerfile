@@ -1,4 +1,4 @@
-FROM alpine-java7-base
+FROM nikom/alpine-java-base
 MAINTAINER Niko Mahle "niko.mahle@googlemail.com"
 
 RUN apk add --update curl ca-certificates
