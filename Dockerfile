@@ -3,7 +3,7 @@ MAINTAINER Niko Mahle "niko.mahle@googlemail.com"
 
 RUN apk add --update curl ca-certificates
 
-ENV TOMCAT_VERSION=7.0.59
+ENV TOMCAT_VERSION=7.0.64
 
 RUN curl \
   --silent \
